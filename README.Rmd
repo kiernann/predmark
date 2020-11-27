@@ -1,0 +1,67 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  error = FALSE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  fig.height = 4,
+  fig.width = 9,
+  out.width = "100%",
+  dpi = 300
+)
+if (!interactive()) {
+  options(width = 99)
+}
+```
+
+# predmark
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package contains data and documentation from prediction markets and
+forecasting models for the 2018 and 2020 U.S. elections. The data is formatted
+in ways to facilitate statistical comparison. This package was built to both
+hold the data and make for easy installation, including package dependencies
+needed to completely replicate the data formatting.
+
+The [original repository][mm] for this project was not formatted as a package.
+
+## Installation
+
+You can install the development version of predmark from [GitHub][gh] with:
+
+```{r install, eval=FALSE}
+# install.packages("remotes")
+remotes::install_github("kiernann/predmark")
+```
+
+## Data
+
+```{r library}
+library(tidyverse)
+library(predmark)
+```
+
+The package contains daily predictions from PredictIt and FiveThirtyEight.
+
+```{r markets18}
+markets18
+```
+
+```{r model18}
+model18
+```
+
+<!-- refs: start -->
+[mm]: https://github.com/kiernann/models-markets
+[gh]: https://github.com/kiernann/predmark
+<!-- refs: end -->
