@@ -1,0 +1,35 @@
+Package: predmark
+Title: Compare Prediction Markets and Forecasting Models
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kiernan",
+           family = "Nicholls",
+           role = c("aut", "cre"),
+           email = "kiernann@protonmail.com")
+Description: Prediction markets allow self-interested traders to
+    buy and sell futures contracts tied to binary outcomes. As the traders
+    perceive these outcomes to become more or less likely, demand rises
+    and falls. The equilibrium price of these contracts adjusts to
+    reflects the crowd-sourced probability of the outcome. Can these
+    markets produce useful and accurate election predictions? How do these
+    predictions compared to those quantitative probabilities derived from
+    polling? This package contains all the code and data needed to compare
+    daily predictions for competitive races in the 2018 and 2020 U.S.
+    elections.
+License: GPL-3
+Imports: 
+    dplyr (>= 1.0.2),
+    fs (>= 1.5.0),
+    ggplot2 (>= 3.3.2),
+    here (>= 0.1),
+    lubridate (>= 1.7.9.2),
+    purrr (>= 0.3.4),
+    readr (>= 1.4.0),
+    stringr (>= 1.4.0),
+    tidyr (>= 1.1.2)
+Remotes: 
+    hrbrmstr/wayback
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
