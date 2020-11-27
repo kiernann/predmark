@@ -25,6 +25,10 @@ if (!interactive()) {
 # predmark
 
 <!-- badges: start -->
+[![Lifecycle: experimental][life_badge]][life_link]
+[![CRAN status][cran_badge]][cran_link]
+[![Codecov test coverage][cov_badge]][cov_link]
+[![R build status][ga_badge]][ga_link]
 <!-- badges: end -->
 
 This package contains data and documentation from prediction markets and
@@ -62,6 +66,14 @@ model18
 ```
 
 <!-- refs: start -->
+[life_badge]: https://img.shields.io/badge/lifecycle-experimental-orange.svg
+[life_link]: https://www.tidyverse.org/lifecycle/#maturing
+[cran_badge]: https://www.r-pkg.org/badges/version/predmark
+[cran_link]: https://CRAN.R-project.org/package=predmark
+[ga_badge]: https://github.com/kiernann/predmark/workflows/R-CMD-check/badge.svg
+[ga_link]: https://github.com/kiernann/predmark/actions
+[cov_badge]: https://codecov.io/gh/kiernann/predmark/branch/master/graph/badge.svg
+[cov_link]: https://codecov.io/gh/kiernann/predmark?branch=master
 [mm]: https://github.com/kiernann/models-markets
 [gh]: https://github.com/kiernann/predmark
 <!-- refs: end -->

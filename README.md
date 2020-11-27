@@ -5,6 +5,14 @@
 
 <!-- badges: start -->
 
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/predmark)](https://CRAN.R-project.org/package=predmark)
+[![Codecov test
+coverage](https://codecov.io/gh/kiernann/predmark/branch/master/graph/badge.svg)](https://codecov.io/gh/kiernann/predmark?branch=master)
+[![R build
+status](https://github.com/kiernann/predmark/workflows/R-CMD-check/badge.svg)](https://github.com/kiernann/predmark/actions)
 <!-- badges: end -->
 
 This package contains data and documentation from prediction markets and
